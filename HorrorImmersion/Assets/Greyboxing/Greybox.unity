@@ -42449,7 +42449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850908207}
   m_Layer: 0
-  m_Name: Hieght References
+  m_Name: Height References
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
