@@ -1444,7 +1444,7 @@ Transform:
   m_GameObject: {fileID: 89395136}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 2.125, z: -3.5}
+  m_LocalPosition: {x: -5, y: 3.875, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31128,44 +31128,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 704184076}
+    - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
+        type: 3}
       propertyPath: patrolPoints.Array.size
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[0]
       value: 
-      objectReference: {fileID: 971877464}
+      objectReference: {fileID: 1080655642}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[1]
       value: 
-      objectReference: {fileID: 1080655642}
+      objectReference: {fileID: 934227002}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[2]
       value: 
-      objectReference: {fileID: 934227002}
+      objectReference: {fileID: 622279633}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 622279633}
+      objectReference: {fileID: 755666662}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[4]
       value: 
-      objectReference: {fileID: 755666662}
+      objectReference: {fileID: 1959816242}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[5]
       value: 
-      objectReference: {fileID: 1959816242}
+      objectReference: {fileID: 1004874227}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[6]
       value: 
-      objectReference: {fileID: 1004874227}
+      objectReference: {fileID: 971877464}
     - target: {fileID: 2995457939196724944, guid: c4026d009ee338241a3b28456a7bd7ac,
         type: 3}
       propertyPath: patrolPoints.Array.data[7]
@@ -31185,6 +31190,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy Object
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556338391959854785, guid: c4026d009ee338241a3b28456a7bd7ac,
+        type: 3}
+      propertyPath: m_Speed
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6556338391959854785, guid: c4026d009ee338241a3b28456a7bd7ac,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36860,7 +36875,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (5)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -36873,7 +36888,7 @@ Transform:
   m_GameObject: {fileID: 622279632}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 2.703399, z: -3.5}
+  m_LocalPosition: {x: 5.5, y: 0, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36891,7 +36906,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -36904,7 +36919,7 @@ Transform:
   m_GameObject: {fileID: 632867073}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.5, y: 2.703399, z: -6}
+  m_LocalPosition: {x: -12.5, y: 0, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37271,7 +37286,7 @@ Transform:
   m_GameObject: {fileID: 704184075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0.75, z: -3.5}
+  m_LocalPosition: {x: -5, y: 2.5, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37495,7 +37510,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (6)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -37508,7 +37523,7 @@ Transform:
   m_GameObject: {fileID: 755666661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 2.703399, z: -6.5}
+  m_LocalPosition: {x: -2, y: 0, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38857,7 +38872,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -38870,7 +38885,7 @@ Transform:
   m_GameObject: {fileID: 934227001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14, y: 2.703399, z: -3.5}
+  m_LocalPosition: {x: 14, y: 0, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38995,7 +39010,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -39008,7 +39023,7 @@ Transform:
   m_GameObject: {fileID: 971877463}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 2.703399, z: 6.5}
+  m_LocalPosition: {x: -2, y: 0, z: 6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39026,7 +39041,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (8)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -39039,7 +39054,7 @@ Transform:
   m_GameObject: {fileID: 1004874226}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 2.703399, z: 0}
+  m_LocalPosition: {x: 4.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40481,7 +40496,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -40494,7 +40509,7 @@ Transform:
   m_GameObject: {fileID: 1080655641}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14, y: 2.703399, z: 8}
+  m_LocalPosition: {x: 14, y: 0, z: 8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40512,7 +40527,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (9)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -41338,7 +41353,7 @@ Transform:
   m_GameObject: {fileID: 1515455211}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 2.125, z: -3.5}
+  m_LocalPosition: {x: -5, y: 3.875, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42058,7 +42073,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (0)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -42774,7 +42789,7 @@ GameObject:
   m_Layer: 0
   m_Name: Patrol Point (7)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -42787,7 +42802,7 @@ Transform:
   m_GameObject: {fileID: 1959816241}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.5, y: 2.703399, z: 2.5}
+  m_LocalPosition: {x: -3.5, y: 0, z: 2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

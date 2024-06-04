@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        hasPatrolledThisFrame = false;
+        //hasPatrolledThisFrame = false;
         ConeShapeRayBehaviour();
         RotateTowardsDestination();
         ReactToSound();
@@ -58,7 +58,10 @@ public class Enemy : MonoBehaviour
                 Debug.DrawLine(transform.position, hit.point, Color.red);
                 if (hit.collider.CompareTag("Player") == true)
                 {
-                    ChasePlayer();
+                    if (enemy.remainingDistance > enemy.stoppingDistance)
+                    {
+                        ChasePlayer();
+                    }
                 }
                 // Give enemy the ability to open doors when patroling
                 if (isPatrolling)
@@ -79,11 +82,11 @@ public class Enemy : MonoBehaviour
             {
                 Debug.DrawRay(transform.position, rayDirection * visibleRange, Color.green);
 
-                if (!isPatrolling && !hasPatrolledThisFrame)
+                if (!isPatrolling)
                 {
                     //Debug.Log("isPatrolling: " + isPatrolling);
                     Patrol();
-                    hasPatrolledThisFrame = true;
+                    //hasPatrolledThisFrame = true;
                 }
                 else
                 {
